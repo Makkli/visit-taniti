@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Things to Do | Taniti Island</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">TANITI<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="activities.html" class="active">Activities</a></li>
+                <li><a href="lodging.html">Lodging</a></li>
+                <li><a href="dining.html">Dining</a></li>
+                <li><a href="transportation.html">Transportation</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+            <div class="nav-toggle" onclick="toggleNav()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero hero-small">
+        <img src="images/zipline_1.jpg" alt="Adventure activities in Taniti" class="hero-image">
+        <div class="hero-content">
+            <h1>Things to Do in Taniti</h1>
+            <p>Adventures for every type of traveler</p>
+        </div>
+    </section>
+
+    <!-- Beaches & Water -->
+    <section class="content-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Beaches & Water Activities</h2>
+                <p>Crystal-clear waters and pristine white sand beaches await</p>
+            </div>
+            
+            <div class="content-card">
+                <div class="content-card-image">
+                    <img src="images/walking_on_beach.jpg" alt="White sand beaches">
+                </div>
+                <div class="content-card-body">
+                    <h3>White Sand Beaches</h3>
+                    <p>Taniti's beaches are famous for their powdery white sand and calm, crystal-clear waters. Perfect for families and relaxation.</p>
+                    <ul>
+                        <li>Multiple beach locations around the island</li>
+                        <li>Safe swimming areas with lifeguards</li>
+                        <li>Beach equipment rentals available</li>
+                        <li>Sunset viewing spots on the west coast</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <div class="content-card-image">
+                    <img src="images/snorkel_1.jpg" alt="Snorkeling in Taniti">
+                </div>
+                <div class="content-card-body">
+                    <h3>Snorkeling & Scuba Diving</h3>
+                    <p>Explore vibrant coral reefs teeming with tropical fish. Our waters offer visibility of up to 100 feet on clear days.</p>
+                    <ul>
+                        <li>Guided snorkeling tours available daily</li>
+                        <li>Scuba certification courses offered</li>
+                        <li>Equipment rental from local shops</li>
+                        <li>Night diving experiences for certified divers</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <div class="content-card-image">
+                    <img src="images/underwater_2.jpg" alt="Marine life">
+                </div>
+                <div class="content-card-body">
+                    <h3>Fishing & Boat Tours</h3>
+                    <p>Join local fishermen for an authentic experience or charter a boat for deep-sea fishing adventures.</p>
+                    <ul>
+                        <li>Half-day and full-day fishing charters</li>
+                        <li>Glass-bottom boat tours</li>
+                        <li>Sunset sailing cruises</li>
+                        <li>Whale watching (seasonal)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nature & Adventure -->
+    <section class="content-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nature & Adventure</h2>
+                <p>From volcanic peaks to lush rainforests</p>
+            </div>
+            
+            <div class="content-card">
+                <div class="content-card-image">
+                    <img src="images/volcano_1.jpg" alt="Taniti Volcano">
+                </div>
+                <div class="content-card-body">
+                    <h3>Volcano Tours</h3>
+                    <p>Taniti is home to an active volcano that last erupted over 200 years ago. Today, it offers spectacular hiking and sightseeing opportunities.</p>
+                    <ul>
+                        <li>Guided hiking tours to the crater rim</li>
+                        <li>Helicopter tours for aerial views</li>
+                        <li>Visit the volcanic hot springs</li>
+                        <li>Photography tours at sunrise/sunset</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <div class="content-card-image">
+                    <img src="images/waterfall_1.jpg" alt="Rainforest waterfall">
+                </div>
+                <div class="content-card-body">
+                    <h3>Rainforest Adventures</h3>
+                    <p>Our tropical rainforest covers much of the island's interior, featuring stunning waterfalls, exotic wildlife, and ancient trees.</p>
+                    <ul>
+                        <li>Guided nature hikes (various difficulty levels)</li>
+                        <li>Waterfall swimming excursions</li>
+                        <li>Bird watching tours</li>
+                        <li>Canopy walkways and observation platforms</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <div class="content-card-image">
+                    <img src="images/zipline_2.jpg" alt="Zipline adventure">
+                </div>
+                <div class="content-card-body">
+                    <h3>Zip-lining</h3>
+                    <p>Experience the thrill of soaring through the rainforest canopy on our professionally designed zipline course.</p>
+                    <ul>
+                        <li>Multiple zipline courses available</li>
+                        <li>Suitable for ages 8 and up</li>
+                        <li>All safety equipment provided</li>
+                        <li>Trained guides accompany all tours</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Entertainment & Culture -->
+    <section class="content-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Entertainment & Culture</h2>
+                <p>Experience the heart and soul of Taniti</p>
+            </div>
+            
+            <div class="content-card">
+                <div class="content-card-image">
+                    <img src="images/tropical_drinks_1.jpg" alt="Nightlife in Taniti">
+                </div>
+                <div class="content-card-body">
+                    <h3>Nightlife & Entertainment</h3>
+                    <p>Taniti City's Merriton Landing area comes alive after dark with restaurants, bars, and live entertainment.</p>
+                    <ul>
+                        <li>Microbrewery with local craft beers</li>
+                        <li>Dance club (open Thursday-Saturday)</li>
+                        <li>Live music at various venues</li>
+                        <li>Casino gaming available</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content-card">
+                <div class="content-card-image">
+                    <img src="images/volcano_2.jpg" alt="Cultural experiences">
+                </div>
+                <div class="content-card-body">
+                    <h3>Cultural Experiences</h3>
+                    <p>Learn about Taniti's rich history and vibrant culture through museums, galleries, and local events.</p>
+                    <ul>
+                        <li>Taniti History Museum</li>
+                        <li>Local art galleries</li>
+                        <li>Traditional craft demonstrations</li>
+                        <li>Cultural festivals (check seasonal calendar)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="tip-box">
+                <h4>Pro Tip</h4>
+                <p>Book popular activities like volcano tours and zipline adventures in advance, especially during peak tourist season (December-February). Many tours fill up quickly!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="activities.html">Activities</a></li>
+                        <li><a href="lodging.html">Lodging</a></li>
+                        <li><a href="dining.html">Dining</a></li>
+                        <li><a href="transportation.html">Transportation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="faq.html#contact">Contact Us</a></li>
+                        <li><a href="faq.html#safety">Safety Info</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>About Taniti</h4>
+                    <p style="color: rgba(255,255,255,0.8);">A small tropical island in the Pacific with a population of about 20,000. We welcome approximately 500 tourists annually—and growing!</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Taniti Island Tourism Board. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleNav() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

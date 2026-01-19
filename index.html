@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Taniti | Paradise Awaits</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">TANITI<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="lodging.html">Lodging</a></li>
+                <li><a href="dining.html">Dining</a></li>
+                <li><a href="transportation.html">Transportation</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+            <div class="nav-toggle" onclick="toggleNav()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="images/sunset_over_water.jpg" alt="Beautiful sunset over Taniti waters" class="hero-image">
+        <div class="hero-content">
+            <h1>Welcome to Paradise</h1>
+            <p>Discover the untouched beauty of Taniti Island</p>
+            <a href="activities.html" class="btn btn-primary">Plan Your Adventure</a>
+        </div>
+    </section>
+
+    <!-- Why Visit Section -->
+    <section class="why-visit">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Visit Taniti?</h2>
+                <p>A tropical paradise waiting to be explored</p>
+            </div>
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/walking_on_beach.jpg" alt="Pristine beaches of Taniti">
+                    </div>
+                    <div class="card-content">
+                        <h3>Pristine Beaches</h3>
+                        <p>Miles of white sand beaches with crystal-clear turquoise waters. Perfect for swimming, sunbathing, and water sports.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/volcano_1.jpg" alt="Taniti volcano">
+                    </div>
+                    <div class="card-content">
+                        <h3>Natural Wonders</h3>
+                        <p>From our active volcano to lush rainforests with stunning waterfalls, nature lovers will find endless adventures.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/culture_1.jpg" alt="Local culture and cuisine">
+                    </div>
+                    <div class="card-content">
+                        <h3>Rich Culture</h3>
+                        <p>Experience warm hospitality, delicious local cuisine, and a vibrant culture that welcomes visitors as family.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Activities -->
+    <section class="featured-section blue">
+        <div class="container">
+            <h2>Featured Activities</h2>
+            <div class="featured-grid">
+                <div class="featured-item">
+                    <img src="images/snorkel_1.jpg" alt="Snorkeling">
+                    <div class="featured-item-content">
+                        <h4>Snorkeling & Diving</h4>
+                        <p>Explore vibrant coral reefs</p>
+                    </div>
+                </div>
+                <div class="featured-item">
+                    <img src="images/volcano_3.jpg" alt="Volcano Tours">
+                    <div class="featured-item-content">
+                        <h4>Volcano Tours</h4>
+                        <p>Witness nature's power</p>
+                    </div>
+                </div>
+                <div class="featured-item">
+                    <img src="images/zipline_1.jpg" alt="Rainforest Adventure">
+                    <div class="featured-item-content">
+                        <h4>Rainforest Zipline</h4>
+                        <p>Soar through the canopy</p>
+                    </div>
+                </div>
+                <div class="featured-item">
+                    <img src="images/waterfall_1.jpg" alt="Waterfall Hikes">
+                    <div class="featured-item-content">
+                        <h4>Waterfall Hikes</h4>
+                        <p>Discover hidden gems</p>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="activities.html" class="btn btn-secondary" style="border-color: #fff; color: #fff;">Explore All Activities</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Lodging -->
+    <section class="featured-section teal">
+        <div class="container">
+            <h2>Where to Stay</h2>
+            <div class="featured-grid">
+                <div class="featured-item">
+                    <img src="images/island_resort.jpg" alt="Resort">
+                    <div class="featured-item-content">
+                        <h4>Luxury Resort</h4>
+                        <p>Four-star oceanfront resort</p>
+                    </div>
+                </div>
+                <div class="featured-item">
+                    <img src="images/interior_balcony_view.jpg" alt="Hotels">
+                    <div class="featured-item-content">
+                        <h4>Hotels</h4>
+                        <p>Comfortable accommodations</p>
+                    </div>
+                </div>
+                <div class="featured-item">
+                    <img src="images/small_lodging.jpg" alt="B&Bs">
+                    <div class="featured-item-content">
+                        <h4>Bed & Breakfasts</h4>
+                        <p>Charming local stays</p>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="lodging.html" class="btn btn-secondary" style="border-color: #fff; color: #fff;">View All Lodging</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Banner -->
+    <section class="info-banner">
+        <div class="container">
+            <div class="info-item">English Widely Spoken</div>
+            <div class="info-item">US Dollar Accepted</div>
+            <div class="info-item">Safe & Welcoming</div>
+            <div class="info-item">Year-Round Sunshine</div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="activities.html">Activities</a></li>
+                        <li><a href="lodging.html">Lodging</a></li>
+                        <li><a href="dining.html">Dining</a></li>
+                        <li><a href="transportation.html">Transportation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="faq.html#contact">Contact Us</a></li>
+                        <li><a href="faq.html#safety">Safety Info</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>About Taniti</h4>
+                    <p style="color: rgba(255,255,255,0.8);">A small tropical island in the Pacific with a population of about 20,000. We welcome approximately 500 tourists annually—and growing!</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Taniti Island Tourism Board. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleNav() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
